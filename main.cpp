@@ -5,7 +5,7 @@
 
 void displayHelp()
 {
-    std::cout << "Usage: cm [options] file " << std::endl;
+    std::cout << "Usage: ucom [options] file " << std::endl;
     std::cout << "Options:    " << std::endl;
     std::cout << "   -c       Compress the file" << std::endl;
     std::cout << "   -d       Decompress the file" << std::endl;

@@ -82,7 +82,7 @@ void compress(std::string &filename)
     }
      encodedData.push_back(bitMan.to_ulong());
     std::cout<<"Encoded data is:\n";
-    std::fstream outputfile("output.bin",std::ios::in|std::ios::binary);
+    std::fstream outputfile("output.bin",std::ios::out|std::ios::binary);
    
     for (auto i : encodedData)
     {
